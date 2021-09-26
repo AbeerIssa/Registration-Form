@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create an Account</title>
+    <meta name="description" content="This is create an account page"> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<html>
+    <body>
+        
+        <form class="container"> 
+            <h2>Registration Form</h2>
+        <div>
+            <label for="fn">Full Name </label>
+            <input id="fn" type="text" name="first name" placeholder="Full Name" required>
+        </div>
+
+        <div>
+            <label for="mail"> Email </label>
+            <input id="mail" type="email" name="email" placeholder="name@gmail.com" required>
+        </div>
+
+        <div>
+            <label for="pass"> Password </label>
+            <input id="pass" type="password" name="pwd" placeholder="Write a Complex Password" minlength="6" maxlength="10" required>
+        </div>
+
+        <div>
+            <label for="mp"> Mobile Phone </label>
+            <input id="mp" type="text" name="phone no" placeholder="Enter your GSM" required>
+        </div>
+
+        <div>
+            <label for="db"> Date of Birth </label>
+            <input id="db" type="date" name="birth" required>
+        </div>
+
+        <div>
+            <label for="g">Gender </label>
+            <input id="g" type="radio" name="gender" value="m"> Male
+            <input id="g" type="radio" name="gender" value="m"> Female
+
+        </div>
+
+        <div>
+            <label for="uni">Name of University </label>
+
+            <select name="university" id="uni">
+                <option value="" selected disabled>Choose your University</option>
+                <option value="1">Sultan Qaboos University </option>
+                <option value="2">University of Technology and Applied Sciences </option>
+                <option value="3">University of Nizwa </option>
+                <option value="4"> A'Sharqiyah University </option>
+                <option value="5">Sohar University </option>
+                <option value="6">Dhofar University </option>
+                <option value="7">Muscat University </option>
+                <option value="8">University of Buraimi</option>
+                <option value="9">Al-Zahra College for Women </option>
+                <option value="10"> Mazoon College </option>
+                <option value="11"> Majan University College </option>
+                <option value="12"> Middle East College </option>
+                <option value="13"> Gulf College </option>
+                <option value="14"> National University of Science and Technology </option>
+                <option value="15"> Oman Tourism College </option>
+                <option value="16"> Other </option>
+                    
+            </select>
+            
+        </div>
+
+        <div>
+            <label for="dg">Date of Graduation</label>
+            <input id="dg" type="date" name="graduation" required>
+        </div>
+
+            <input type="button" value="Create account"> 
+            
+
+    </form>  
+    </body>
+</html>
